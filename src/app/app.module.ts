@@ -15,6 +15,8 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { HyskillComponent } from './components/hyskill/hyskill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { HttpClientModule} from '@angular/common/http';
+
 
 
 
@@ -38,12 +40,14 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     AcercaDeComponent,
     HyskillComponent,
     ProyectosComponent
+
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
     
 
 
