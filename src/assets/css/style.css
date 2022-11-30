@@ -1,0 +1,190 @@
+
+
+body{
+    margin: 0em;
+    margin-left: 1em;
+    margin right: 0.5em
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: rgb(2, 2, 2)
+  }
+
+
+
+.Header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(5deg,rgb(38, 114, 255), rgb(184, 8, 238));
+
+}
+
+
+
+.argentinaprograma{
+position: relative;
+width: 50px;
+ height: 0px;
+  left: 0px;
+  top: -20px;
+  display: flex;
+}
+
+
+
+.Redes{
+ 
+  position: absolute;
+   top: 2px;
+   left: 720px;
+ }
+ 
+
+ 
+ .Redes ul{
+  list-style: none;
+  float: left;
+   }
+
+ 
+
+.Redes ul li{
+  width: 30px;
+  height: 50;
+  margin: 10px;
+display: inline-flex;
+
+  
+
+
+}
+
+.banner{
+ position: relative;
+  width: 100%;
+  height: 230px;
+  top: 50px ;
+  display: flex;
+  background: rgb(219, 8, 8);
+
+}
+
+ .About{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  top: 0px;
+  background: linear-gradient(5deg,rgb(177, 204, 253), rgb(8, 12, 238));
+}
+
+.bloque1{
+position: relative;
+font-family: 'Roboto', sans-serif;
+width: 300px;
+left: -190px;
+top: 200px;
+display: flex;
+font-size: 30px;
+
+}
+.bloque2{
+  position: relative;
+  font-size: 24px;
+top: 210px;
+left: -100px;
+}
+
+
+
+
+
+.Experiences{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  top: -56px;
+  background: linear-gradient(5deg,rgb(177, 204, 253), rgb(119, 122, 255));
+}
+
+.bloque3{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 240px;
+
+
+}
+
+
+
+
+
+
+.Education{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(5deg,rgb(177, 204, 253), rgb(119, 122, 255));
+  display: flex;
+
+}
+.bloque4{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 240px;
+
+}
+
+
+
+
+.Skill{
+  position: relative;
+  width: -100px;
+  height: 400px;
+  display: flex;
+  background: rgb(197, 176, 255);
+}
+
+
+.bloque5{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 120px;
+
+}
+.container-fluid{
+
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 35px;
+  top: -230px;px;
+
+}
+
+
+
+
+
+.Projects{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  top: 50px;
+  left: 0px;
+  display: flex;
+
+ 
+  background: rgb(255, 217, 0);
+}
+
+
+/*

@@ -1,0 +1,353 @@
+
+.body{
+
+  margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to top,rgb(145, 211, 255) 5%,rgb(169, 113, 243) 50%);
+
+  
+  
+  }
+
+
+  
+
+Header {
+  height: 100px;
+  background: linear-gradient(5deg,rgb(38, 114, 255), rgb(184, 8, 238));
+  padding: 0 50px;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo-arg{
+ 
+}
+
+.menu a{
+
+  color: aliceblue;
+  padding: 0 10px;
+ transition: 0.5s;
+ list-style: none;
+ float: left;
+}
+
+
+
+.mostrar-menu,
+.esconder-menu{
+
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  transition:  0.4s;
+  
+}
+.mostrar-menu{
+  order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu,
+.esconder-menu{
+  color: aquamarine;
+}
+#check{
+
+  display: none;
+}
+
+/*Responsive*/
+
+
+@media(max-width:768px){
+
+.mostrar-menu,
+.esconder-menu {
+
+    display: block;
+  }
+
+}
+
+
+#photo{
+  position: relative;
+  top: -200px;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: left;
+  
+
+}
+
+
+
+
+#About{
+  position: relative;
+
+  padding: 50px 50px;
+  display: center;
+  justify-content: left;
+ top: -200px;
+  height: 20vh;
+
+}
+
+#Experiences{
+
+  padding: 50px 50px;
+  display: center;
+  justify-content: left;
+
+}
+#Education{
+  padding: 50px 50px;
+  display: center;
+  justify-content: left;
+
+}
+#Skill{
+  padding: 50px 50px;
+  display: center;
+  justify-content: left;
+
+  
+}
+
+#Proyectos{
+
+  padding: 50px 50px;
+  display: center;
+  justify-content: left;
+
+}
+
+
+
+
+
+
+/*
+.menu{
+
+  position: fixed;
+  width: 100%;
+  height:  100vh;
+  background: blue;
+  right: -100%;
+  top: 0;
+  text-align: center;
+  padding: 100px  0px;
+  z-index: 100;
+  transition: 0.8s;
+}
+
+
+.menu{
+
+display: block;
+padding: 20px;
+
+}
+
+.esconder-menu{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+#check:checked ~ .menu{
+
+  right: 0;
+}
+*/
+
+.banner{
+padding: 0 50px;
+background-image: url(/assets/img/banner.png);
+height: 40vh;
+background-size: cover;
+background-position: center;
+
+}
+
+#banner::before{
+  content:'' ;
+  background: rgb(38, 114, 255 0.6);
+  position: absolute;
+  width: 100%;
+  height: 45vh;
+  left: 0;
+}
+/*
+
+.argentinaprograma{
+position: relative;
+width: 50px;
+ height: 0px;
+  left: 0px;
+  top: -20px;
+  display: flex;
+}
+
+
+
+.Redes{
+ 
+  position: absolute;
+   top: 2px;
+   left: 720px;
+ }
+ 
+
+ 
+ .Redes ul{
+  list-style: none;
+  float: left;
+   }
+
+ 
+
+.Redes ul li{
+  width: 30px;
+  height: 50;
+  margin: 10px;
+display: inline-flex;
+
+  
+
+
+}
+
+.banner{
+ position: relative;
+  width: 100%;
+  height: 230px;
+  top: 50px ;
+  display: flex;
+  background: rgb(219, 8, 8);
+
+}
+
+ .About{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  top: 0px;
+  background: linear-gradient(5deg,rgb(177, 204, 253), rgb(8, 12, 238));
+}
+
+.bloque1{
+position: relative;
+font-family: 'Roboto', sans-serif;
+width: 300px;
+left: -190px;
+top: 200px;
+display: flex;
+font-size: 30px;
+
+}
+.bloque2{
+  position: relative;
+  font-size: 24px;
+top: 210px;
+left: -100px;
+}
+
+
+
+
+
+.Experiences{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  top: -56px;
+  background: linear-gradient(5deg,rgb(177, 204, 253), rgb(119, 122, 255));
+}
+
+.bloque3{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 240px;
+
+
+}
+
+
+
+
+
+
+.Education{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(5deg,rgb(177, 204, 253), rgb(119, 122, 255));
+  display: flex;
+
+}
+.bloque4{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 240px;
+
+}
+
+
+
+
+.Skill{
+  position: relative;
+  width: -100px;
+  height: 400px;
+  display: flex;
+  background: rgb(197, 176, 255);
+}
+
+
+.bloque5{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 120px;
+
+}
+.container-fluid{
+
+  position: relative;
+  width: 900px;
+  height: 200px;
+  left: 35px;
+  top: -230px;px;
+
+}
+
+
+
+
+
+.Projects{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  top: 50px;
+  left: 0px;
+  display: flex;
+
+ 
+  background: rgb(255, 217, 0);
+}
+
+
+/*
