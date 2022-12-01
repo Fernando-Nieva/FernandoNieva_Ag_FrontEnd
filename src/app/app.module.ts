@@ -16,6 +16,7 @@ import { HyskillComponent } from './components/hyskill/hyskill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -39,7 +40,8 @@ import { HttpClientModule} from '@angular/common/http';
     HomeComponent,
     AcercaDeComponent,
     HyskillComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    LoginComponent
 
     
   ],
