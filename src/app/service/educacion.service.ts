@@ -1,3 +1,5 @@
+
+
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -9,7 +11,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
 //<<<<<<< HEAD
-  //URL = 'https://backend-mgb.herokuapp.com/educacion/';
+  //URL = 'https://fernandonievaapbackend.onrender.com//educacion/';
 //=======
   URL = environment.URL + 'educacion/';
 //>>>>>>> dbccedd5c18384aa757cbb7ab7d9f7f3bc0e7672

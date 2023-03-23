@@ -1,44 +1,25 @@
-
 .container{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
 .redes{
-
-    margin-right: 1.0em;
+    margin-right: 0.5em;
 }
-
+#logoAP{
+    width: 150px;
+}
 img{
-
-
     width: 50px;
 }
-
-#app-logo{
-    width: 150px;
-
-}
-
 .btn{
     border-width: medium;
 }
 
-
-/*vista celular*/
-
-
+/*--- Para la vista de celular ---*/
 @media (max-width: 575px){
-    
     .container{
         flex-direction: column;
-
-        
-        
     }
     .redes{
         display: flex;
@@ -46,13 +27,6 @@ img{
         align-items: center;
     }
     .redes img{
-    
-    
         margin: 0.2em;
     }
-    
-
-    }
-
-
-
+}

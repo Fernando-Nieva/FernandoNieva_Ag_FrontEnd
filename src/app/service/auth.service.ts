@@ -1,4 +1,3 @@
-
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -12,8 +11,8 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 //<<<<<<< HEAD
-  authURL = 'https://backend-mgb.herokuapp.com/auth/';
-//=======
+  authURL = 'https://fernandonievaapbackend.onrender.com/auth/';
+  //=======
   URL = environment.URL + 'auth/';
 //>>>>>>> dbccedd5c18384aa757cbb7ab7d9f7f3bc0e7672
 
